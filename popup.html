@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>LinkedIn PowerToys</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      width: 320px;
+      padding: 20px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      margin: 0;
+    }
+    h1 {
+      font-size: 18px;
+      margin-bottom: 15px;
+      text-align: center;
+      font-weight: 600;
+    }
+    .description {
+      font-size: 14px;
+      line-height: 1.4;
+      margin-bottom: 20px;
+      text-align: center;
+      opacity: 0.9;
+    }
+    .instructions {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 20px;
+      margin-top: 10px;
+    }
+    .instructions h2 {
+      font-size: 16px;
+      margin-bottom: 15px;
+      text-align: center;
+      font-weight: 600;
+      color: white;
+    }
+    .instructions ol {
+      padding-left: 20px;
+      margin: 0;
+    }
+    .instructions li {
+      font-size: 14px;
+      line-height: 1.6;
+      margin-bottom: 10px;
+      color: rgba(255, 255, 255, 0.95);
+    }
+    .linkedin-link {
+      color: #87CEEB;
+      text-decoration: none;
+      font-weight: bold;
+      border-bottom: 1px dotted rgba(135, 206, 235, 0.6);
+    }
+    .linkedin-link:hover {
+      color: white;
+      border-bottom-color: white;
+    }
+    .emoji {
+      font-size: 24px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="emoji">🔥💼</div>
+  <h1>LinkedIn PowerToys</h1>
+  <p class="description">Transform your connection requests into a beautiful swipe overlay interface!</p>
+  
+  <div class="instructions">
+    <h2>How to Start:</h2>
+    <ol>
+      <li>Open <a href="https://www.linkedin.com/mynetwork/invitation-manager/received/" target="_blank" class="linkedin-link">LinkedIn Invitation Manager</a></li>
+      <li>Look for the 🔥 fire icon next to the settings button</li>
+      <li>Click the fire icon to instantly launch Swipe overlay</li>
+      <li>Use gestures or buttons to Accept, Ignore, or Skip</li>
+    </ol>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
