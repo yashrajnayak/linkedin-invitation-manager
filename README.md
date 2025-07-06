@@ -6,13 +6,11 @@ A powerful Chromium extension that transforms your LinkedIn connection request m
 
 ### Features
 - 🎯 Launches immediately with an overlay interface - no waiting!
-- 💳 Beautiful card-based design with smooth animations
+- 💳 Card-based design with smooth animations
 - 🎨 Swipe gestures with real-time card movement and visual feedback
 - 👤 Shows profile pictures, names, taglines, and mutual connections
 - ⚡ Swipe or click to Accept, Ignore, or Skip connections
-- 🌙 Modern overlay design that doesn't interfere with LinkedIn
-- 📱 Works perfectly on different screen sizes
-- 🔄 Intelligently loads connections in small batches
+- 📱 Modern overlay design that doesn't interfere with LinkedIn
 
 ### Quick Start
 1. Follow the installation steps below to install the extension
@@ -38,7 +36,6 @@ A powerful Chromium extension that transforms your LinkedIn connection request m
 
 ## 📱 Usage
 
-### Using the Connection Request Swiper
 1. Navigate to [LinkedIn Invitation Manager](https://www.linkedin.com/mynetwork/invitation-manager/received/)
 2. Look for the 🔥 fire icon next to the settings gear icon
 3. Click the fire icon to instantly launch the swipe overlay
