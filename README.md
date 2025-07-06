@@ -28,10 +28,10 @@ A powerful Chromium extension that transforms your LinkedIn connection request m
 2. Extract the ZIP file to a folder on your computer
 3. Open your browser and navigate to the extensions page:
 
-[![Chrome Extensions](https://img.shields.io/badge/Chrome-Extensions-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](chrome://extensions/)
-[![Edge Extensions](https://img.shields.io/badge/Edge-Extensions-0078D4?style=for-the-badge&logo=microsoftedge&logoColor=white)](edge://extensions/)
-[![Brave Extensions](https://img.shields.io/badge/Brave-Extensions-FB542B?style=for-the-badge&logo=brave&logoColor=white)](brave://extensions/)
-[![Opera Extensions](https://img.shields.io/badge/Opera-Extensions-FF1B2D?style=for-the-badge&logo=opera&logoColor=white)](opera://extensions/)
+- **Chrome**: `chrome://extensions/`
+- **Edge**: `edge://extensions/`
+- **Brave**: `brave://extensions/`
+- **Opera**: `opera://extensions/`
 
 4. Enable "Developer mode" by toggling the switch, then click "Load unpacked" button and select the extracted extension folder
 5. The extension icon should appear in your browser toolbar
@@ -47,23 +47,21 @@ A powerful Chromium extension that transforms your LinkedIn connection request m
 
 ## 🔧 Troubleshooting
 
-### Extension Not Loading
+1. Extension Not Loading
 - Make sure Developer mode is enabled
 - Check that you selected the correct folder (the entire repository folder)
 - Try refreshing the extensions page
 
-### Fire Icon Not Appearing  
+2. Fire Icon Not Appearing  
 - Make sure you're on the LinkedIn invitation manager page
 - Refresh the page and wait a few seconds
 - Check browser console for any error messages
 
-### Cards Not Loading
+3. Cards Not Loading
 - The extension loads available requests immediately for instant access
 - Additional requests load automatically in smart batches as you swipe
 - Never shows blank screens - always provides loading feedback
 - If no cards appear, try refreshing the LinkedIn page
-
-### Need Help?
 - Look at browser console (F12) for error messages
 - Make sure LinkedIn hasn't changed their interface
 
@@ -90,13 +88,11 @@ LinkedIn-Invitation-Manager/
 ├── images/             # Extension icons
 ```
 
-## 📄 License
-
-MIT License - Feel free to modify and distribute as needed.
-
 ## 🤝 Contributing
 
 Want to improve this extension? Pull requests are welcome!
+
+This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
 
 ---
 
