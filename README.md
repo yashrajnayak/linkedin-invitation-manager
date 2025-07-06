@@ -2,7 +2,7 @@
 
 A powerful Chromium extension that transforms your LinkedIn connection request management with a beautiful, swipe-based interface.
 
-<img width="1510" alt="image" src="https://github.com/user-attachments/assets/e2d27539-0e05-4730-b1aa-0298a2e58e94" />
+![LinkedIn Invitation Manager Cover](images/cover.png)
 
 ### Features
 - 🎯 Launches immediately with an overlay interface - no waiting!
@@ -27,10 +27,12 @@ A powerful Chromium extension that transforms your LinkedIn connection request m
 1. Download the repository as a ZIP file
 2. Extract the ZIP file to a folder on your computer
 3. Open your browser and navigate to the extensions page:
-     - **Chrome**: `chrome://extensions/`
-     - **Edge**: `edge://extensions/`
-     - **Brave**: `brave://extensions/`
-     - **Opera**: `opera://extensions/`
+
+[![Chrome Extensions](https://img.shields.io/badge/Chrome-Extensions-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](chrome://extensions/)
+[![Edge Extensions](https://img.shields.io/badge/Edge-Extensions-0078D4?style=for-the-badge&logo=microsoftedge&logoColor=white)](edge://extensions/)
+[![Brave Extensions](https://img.shields.io/badge/Brave-Extensions-FB542B?style=for-the-badge&logo=brave&logoColor=white)](brave://extensions/)
+[![Opera Extensions](https://img.shields.io/badge/Opera-Extensions-FF1B2D?style=for-the-badge&logo=opera&logoColor=white)](opera://extensions/)
+
 4. Enable "Developer mode" by toggling the switch, then click "Load unpacked" button and select the extracted extension folder
 5. The extension icon should appear in your browser toolbar
 
@@ -94,7 +96,7 @@ MIT License - Feel free to modify and distribute as needed.
 
 ## 🤝 Contributing
 
-Want to improve the LinkedIn Invitation Manager? Pull requests are welcome!
+Want to improve this extension? Pull requests are welcome!
 
 ---
 
